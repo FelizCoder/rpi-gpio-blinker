@@ -6,10 +6,10 @@ name: Docker
 # documentation.
 
 on:
-  workflow_run: 
-    workflows: [ "Bump version" ] 
-    types: [ completed ]
-    branches: [ "main" ]
+  push:
+    # Publish semver tags as releases.
+    tags:
+    - 'v*'
   pull_request:
     branches: [ "main" ]
 
