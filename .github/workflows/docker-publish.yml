@@ -9,7 +9,7 @@ on:
   push:
     # Publish semver tags as releases.
     tags:
-      - v*
+    - 'v*'
   pull_request:
     branches: [ "main" ]
 
