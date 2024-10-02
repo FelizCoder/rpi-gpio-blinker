@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.5.0](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.4.4...v0.5.0) (2024-10-02)
+
+
+### Features
+
+* guarantee to turn off led on close ([10a8a1f](https://github.com/FelizCoder/rpi-gpio-blinker/commit/10a8a1f501d58b6ba6e941807ce391b1fb117e95))
+* **logging:** integrate logging for better output management ([b3277c6](https://github.com/FelizCoder/rpi-gpio-blinker/commit/b3277c6c15ae8d5666d1bcf78bc1631548950d83))
+
 ## [0.4.4](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.4.3...v0.4.4) (2024-10-02)
 
 
