@@ -1,4 +1,5 @@
 FROM python:3.11
 COPY blink.py ./
-RUN pip install lgpio pigpio gpio gpiozero
+COPY requirements.txt ./
+RUN pip install -r requirements.txt
 CMD ["python", "blink.py"]
