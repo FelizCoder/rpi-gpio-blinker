@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.0](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.5.0...v0.6.0) (2024-10-03)
+
+
+### Features
+
+* define python libraries in reqierements.txt ([d8ab337](https://github.com/FelizCoder/rpi-gpio-blinker/commit/d8ab33759f094b2cf7b1e56ee60ee2fc364e1ebb))
+
 ## [0.5.0](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.4.4...v0.5.0) (2024-10-02)
 
 
