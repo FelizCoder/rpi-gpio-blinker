@@ -77,8 +77,9 @@ Wiring details:
     ```
 3. Run the Docker container:
     ```bash
-    docker run --device /dev/gpiomem rpi-gpio-blinker
+    docker run --rm --device /dev/gpiochip4 rpi-gpio-blinker
     ```
+    >  *You might need to adjust the `--device` flag to match the GPIO chip on your Raspberry Pi. This example is designed for a Raspberry Pi 5*
 4. The LED should start blinking on your Raspberry Pi.
 
 ## License
