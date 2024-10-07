@@ -3,6 +3,7 @@ name: Clean up registry
 on:
   pull_request:
     branches: [main]
+    types: [closed, opened, synchronize]
 
 permissions:
   packages: write
