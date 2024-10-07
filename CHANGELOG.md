@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.6.0...v0.6.1) (2024-10-07)
+
+
+### Bug Fixes
+
+* no dry run on closed PR ([712e959](https://github.com/FelizCoder/rpi-gpio-blinker/commit/712e9597ca044f1a7fbdb7df46e1aad8c132169f))
+
 ## [0.6.0](https://github.com/FelizCoder/rpi-gpio-blinker/compare/v0.5.0...v0.6.0) (2024-10-03)
 
 
